@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sofia Pro", sans-serif;
+}
+
+.navbar{
+    background-color: #094d92;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.navbar-left{
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-left > img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.navbar-left > img:nth-child(2){
+        height: 37.18px;
+        width: 90px;
+        margin-left: 5px;
+        
+}
+
+.navbar-middle{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-middle > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-middle > ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 2.5vw;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar-right > span{
+    font-size: 10px;
+    padding-right: 30px;
+}
+.navbar-menu{
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 20px;
+   
+}
+.responsive-menu{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        background: #fff;
+        height: 100vh;
+        transition: right ease-in .5s;
+        z-index: 1px;
+}
+
+.open-menu{
+    right: 0;
+}
+
+.hamburger-menu-button{
+    display: none;
+    margin-right: 2%;
+    background:none;
+    border: none;
+}
+
+
+.hamburger-menu-button > img {
+    width: 30px;
+    height: 35px;
+    background: none;
+}
+
+.close-button{
+    font-size: 20px;
+}
+
+.linkler > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+    transition-duration: 0.2rem;
+    
+}
+
+.linkler > ul > li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    border:none
+    
+}
+    
+
+
+
+.header{
+    height: 100%;
+    background-color:#094d92;
+    padding:0 2% 2% 2%;
+
+}
+
+
+.header > img{
+    width: 100%;
+}
+
+.header2{
+    height: 100%;
+    background-color:#094d92; 
+    padding:2%;
+    
+}
+
+.header2 > img{
+    width: 100%;
+}
+
+
+.header3{
+    height: 100%;
+    padding:2%;
+    background-color: #094d92;
+    
+    
+}
+
+.header3 > img{
+    width: 100%;
+    
+}
+
+.header4{
+    height: 100%;
+    padding: 2%;
+    background-color: #094d92;
+}
+
+.header4 > img{
+    width: 100%;
+}
+
+
+.header6{
+    height: 100%;
+    padding: 2%;
+    background-color: #094d92;
+    position: relative;
+}
+
+.header6 > img{
+    width: 100%;
+}
+
+.header6 > img:nth-child(2){
+    position: absolute;
+    bottom: 80px;
+    left: 60px;
+    width: 297.25px;
+   
+}
+
+.header6 > div {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    bottom: 143px;
+    left: 168px;
+    background-color:#0065c3c7;
+    padding: 5px 10px;
+    
+}
+
+.header6 > div > svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 23px;
+}
+
+.header6 > div > h1{
+    color: #fff;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.main{
+    background-image: linear-gradient(#0052a3, #0063c3);
+    width: 100%;
+    height: 550px;
+    background-color: #094d92;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.main >.picture > img{
+    width: 15%;
+    padding: 0 10px;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border: 1px white solid;
+    border-radius: 20px;
+    font-weight: 700;
+    line-height: 2.25rem;
+    font-size: 1.5rem;
+    font-family: "Sofia Pro";
+    color: #fff;
+    margin-top: 20px;
+}
+
+.button >a{
+    
+    color: #fff;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: #084D92;
+}
+
+.resim{
+    width: 100%;
+    background-image: url("https://pepsi.com.tr/uploads/assets/media/campaigns_megafon.jpg");
+    height: 36vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.resim > img{
+    width: 12% !important;
+    position: absolute;
+    left: 46%;
+    top: 23%;
+}
+
+.resim > div {
+    padding-bottom: 38px;
+}
+
+.resim > div > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 4rem;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    
+}
+
+.footer > h2{
+    font-family: "Sofia Pro";
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top:40px;
+    color: #0052a3;
+}
+
+
+.kola{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.kola > img{
+    
+    margin: 10px;
+    padding: 10px;
+    width: 18vw;
+    height: 100%;
+}
+
+.footer2{
+    display:inline-grid;
+    width: 100%; 
+    align-items: baseline;
+    justify-items: center;
+    vertical-align: baseline;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #0052a3;
+}
+
+.links > ul{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    color: #fff;
+    padding: 0.5rem;
+    
+    
+
+    
+}
+
+.links > ul >li{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    font-family: "Sofia Pro";
+    margin-top: 10px;
+}
+
+
+
+
+
+.link2 > ul{
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0.5rem;
+    
+    
+}
+
+
+
+
+.link2 > ul >li{
+    font-size: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    color: #fff;
+    font-family: "Sofia Pro";
+
+
+}
+
+
+@media only screen and (max-width:800px) {
+    .link2 > ul {
+        flex-wrap: wrap;
+    }
+
+    .resim{
+        height: 300px;
+    }
+
+     .resim > div > h3 {
+        padding: 0;
+        height: 30px;
+        
+    }
+
+    .button{
+        width: 180px;
+    }
+
+    .main{
+        height: 400px;
+    }
+    .header6 > div {
+        display: none;
+    }
+
+    .header6 > img:nth-child(2){
+        display: none;
+    }
+
+    .navbar-middle, .navbar-right{
+        display: none;
+    }
+
+    .hamburger-menu-button{
+        display: block;
+    }
+    
+}
+
+
+
